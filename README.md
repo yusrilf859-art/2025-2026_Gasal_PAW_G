@@ -1,4 +1,4 @@
-# Praktikum Pengembangan Aplikasi Web D
+# Praktikum Pengembangan Aplikasi Web G
 
 Repository ini digunakan untuk mengumpulkan tugas-tugas praktikum yang diberikan selama perkuliahan.
 
