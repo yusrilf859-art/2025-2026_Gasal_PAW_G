@@ -1,0 +1,190 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url(gambarsituspegunungan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 0px 20px 50px black;
+    height: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+    overflow: auto;
+}
+
+.header {
+    background-image: url(gambarsituspegunungan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -370px;
+    margin-top: 0px;
+    height: 100px;
+    position: relative;
+}
+.header h1 img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    height: 70px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.53);
+    text-align: center;
+    padding: 5px;
+}
+
+.menu {
+    height: 50px;
+    justify-content: left;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    top: 0;
+    }
+    .menu ul li {
+      text-decoration: none;
+      display: inline;
+      margin-right: 10px;
+      transition: 0.5s;
+    }
+    .menu ul li:hover {
+      font-size: 20px;
+      transition: 0.5s;
+    }
+    .menu a{
+      text-decoration: none;
+      color: white;
+    }
+
+
+.isi {
+    margin-top: 35px;
+    display: flex;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    color: white; 
+}
+
+.workshops {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+}
+.workshop {
+    background-color: black;
+    width: 740px;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-top: 0px;
+}
+.workshop img {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.regis {
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    float: right;
+    width: 450px;
+    height : auto;
+    position: sticky;
+    top: 0;
+
+}
+
+#luar {
+    color: white;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 10px 7px;
+    position: sticky;
+    height: 230px;
+    border-radius: 10px;
+}
+.inti {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: lightgrey;
+    background-color: rgb(22, 22, 22);
+}
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#first-name,#nim,#surname {
+    width: 135px;
+    float: right;
+}
+button {
+    width: 122px;
+    margin-right: 1px;
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+    border-radius: 5px;
+}
+button:hover {
+    opacity: 0.9;
+}
+  
+button:active {
+    opacity: 0.5;
+} 
+.useful-links {
+    margin: 10px 7px ;
+    margin-top: 0;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 5px;
+}
+.list-link {
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+footer {
+    color: #fff;
+    background-color: rgb(22, 22, 22);
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+}
