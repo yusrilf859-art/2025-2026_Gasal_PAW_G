@@ -1,6 +1,5 @@
 <?php 
 
-
 $matkul = ["PTI","ALPRO","DPW","STRUKDAT","JARKOM","PAW","PSBF","RPL"];
 
 foreach ($matkul as $mk) {
@@ -29,4 +28,5 @@ foreach ($matkul as $mk) {
     }
     echo "<br>";
 }
+
 ?>
