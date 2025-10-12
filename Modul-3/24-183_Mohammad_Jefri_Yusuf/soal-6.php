@@ -19,23 +19,23 @@ print_r($profileBaru);
 echo "<hr>";
 
 // 3.6.4
-$daftar_musisi = ["heiakim","porter","robinson","rain"];
-echo "heiakim berada di indeks: ". array_search("heiakim",$daftar_musisi);
-echo "<hr>";
+    $daftar_musisi = ["heiakim","porter","robinson","rain"];
+    echo "heiakim berada di indeks: ". array_search("heiakim",$daftar_musisi);
+    echo "<hr>";
 
 // 3.6.5
 function angkaGenap($angka) {
     return $angka % 2 == 0;
 }
 $angka = [1,2,4,6,5,7,8];
-$angkaGenaBaru = array_filter($angka, "angkaGenap");
-print_r($angkaGenaBaru);
+$angkaGenapBaru = array_filter($angka, "angkaGenap");
+print_r($angkaGenapBaru);
 echo "<hr>";
 
 // 3.6.6
 // sort()
 $numbers = [5,5,3,6,8,2,1,4,7,0];
-sort($angka);
+sort($numbers);
 echo "sort(): ";
 print_r($numbers);
 echo "<hr>";

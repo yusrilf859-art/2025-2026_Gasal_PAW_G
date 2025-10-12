@@ -25,7 +25,7 @@ $students[] = ["Edward","220408","0812345670"];
 for($row = 0; $row < count($students); $row++) {
     echo "<p><b>Row number $row</p></b>";
     echo "<ul>";
-    for ($col = 0; $col < 3; $col++){
+    for ($col = 0; $col < count($students[0]); $col++){
         echo "<li>".$students[$row][$col]."</li>";
 
     }
