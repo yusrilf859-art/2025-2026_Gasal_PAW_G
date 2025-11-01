@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS toko_db;
+USE toko_db;
+
+CREATE TABLE supplier (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    telp VARCHAR(20) NOT NULL,
+    alamat TEXT NOT NULL
+);
